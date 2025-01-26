@@ -1,0 +1,23 @@
+.bannerContent {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom right, #cd853f 10%, #f4a460);
+  color: #461e00;
+  padding: 10px;
+  font-family: "Times New Roman";
+}
+.bannerTitle {
+  font-size: 2rem;
+}
+.bannerSubTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: baseline;
+  font-size: 4rem;
+}
+.bannerDot {
+  font-size: 5rem;
+  color: #800000;
+  font-weight: bolder;
+}

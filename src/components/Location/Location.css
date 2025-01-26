@@ -1,0 +1,46 @@
+.locationContainer {
+  background-image: linear-gradient(to bottom right, #f4a460 80%, #f9efd7 100%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: 3px;
+  margin: 9rem;
+  width: 72rem;
+  font-family: Arial;
+  color: #461e00;
+}
+
+.locationSecondContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.locationContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.locationTitle {
+  display: flex;
+  font-family: serif;
+  font-size: 4rem;
+  align-items: start;
+  background: linear-gradient(to bottom right, #800000, #000000 90%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-top: -5rem;
+}
+
+.locationList {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+
+.locationSpan {
+  font-size: 0.8rem;
+  margin-top: 5rem;
+}
