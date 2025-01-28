@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
-import "./banner.css";
-import { BannerContext } from "../../contexts/BannerContext";
+import React, { useContext } from 'react';
+import './banner.css';
+import { BannerContext } from '../../contexts/BannerContext';
 
 const Banner = () => {
   const { bannerData } = useContext(BannerContext);

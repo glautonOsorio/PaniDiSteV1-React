@@ -1,12 +1,12 @@
-import { useState } from "react";
-import "./Form.css";
+import { useState } from 'react';
+import './Form.css';
 
 const Form = () => {
   const [data, setData] = useState({
-    name: "",
-    telephone: "",
-    email: "",
-    message: "",
+    name: '',
+    telephone: '',
+    email: '',
+    message: '',
   });
   const handleChange = (e) => {
     const { name, value } = e.target;

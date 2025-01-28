@@ -1,6 +1,6 @@
-import React from "react";
-import "./footerCss.css";
-import { Link } from "react-router-dom";
+import React from 'react';
+import './footerCss.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -24,17 +24,17 @@ const Footer = () => {
           <div className="thirdMenu">
             <h6 className="footerTittle">Informações</h6>
             <li>
-              <Link to={"/products"} className="link">
+              <Link to={'/products'} className="link">
                 Produtos
               </Link>
             </li>
             <li>
-              <Link to={"/contact"} className="link">
+              <Link to={'/contact'} className="link">
                 Contato
               </Link>
             </li>
             <li>
-              <Link to={"/faq"} className="link">
+              <Link to={'/faq'} className="link">
                 FAQ
               </Link>
             </li>

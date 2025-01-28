@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import "./cardCss.css";
-import PropTypes from "prop-types";
+import React, { useState } from 'react';
+import './cardCss.css';
+import PropTypes from 'prop-types';
 
 function Card({ itens }) {
   const [popUp, setPopUp] = useState([]);

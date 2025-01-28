@@ -1,10 +1,10 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import "./App.css";
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import './App.css';
 
-import { ProductPage } from "./pages/ProductPage/ProductPage.jsx";
-import ContactPage from "./pages/ContactPage/ContactPage";
-import NotFoundPage from "./pages/NotFound/NotFound";
-import FaqPage from "./pages/FaqPage/FaqPage";
+import { ProductPage } from './pages/ProductPage/ProductPage.jsx';
+import ContactPage from './pages/ContactPage/ContactPage';
+import NotFoundPage from './pages/NotFound/NotFound';
+import FaqPage from './pages/FaqPage/FaqPage';
 
 function App() {
   return (

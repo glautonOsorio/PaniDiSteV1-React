@@ -1,5 +1,5 @@
-import Accordion from "react-bootstrap/Accordion";
-import "../Faq/Faq.css";
+import Accordion from 'react-bootstrap/Accordion';
+import '../Faq/Faq.css';
 
 const AccordionComponent = ({ answer, question, id }) => {
   return (

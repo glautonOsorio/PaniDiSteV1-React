@@ -1,4 +1,4 @@
-import "./Location.css";
+import './Location.css';
 const Location = () => {
   return (
     <div className="locationContainer">
