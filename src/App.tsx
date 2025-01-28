@@ -1,12 +1,10 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import './App.css';
-
-import { ProductPage } from './pages/ProductPage/ProductPage.jsx';
+import { ProductPage } from './pages/ProductPage/ProductPage';
 import ContactPage from './pages/ContactPage/ContactPage';
-import NotFoundPage from './pages/NotFound/NotFound';
 import FaqPage from './pages/FaqPage/FaqPage';
+import NotFoundPage from './pages/NotFound/NotFound';
 
-function App() {
+export function App() {
   return (
     <Router>
       <Routes>
@@ -18,5 +16,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;

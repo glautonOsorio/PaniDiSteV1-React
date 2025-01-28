@@ -1,18 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.js';
-import './index.css';
+
 import { BannerProvider } from './contexts/BannerContext.jsx';
+import { GlobalStyle } from './global.style.js';
+import { App } from './App';
 
 const rootElement = document.getElementById('root');
-if (rootElement) {
-  ReactDOM.createRoot(rootElement).render(
-    <React.StrictMode>
+ReactDOM.createRoot(rootElement).render(
+  <React.StrictMode>
+    <GlobalStyle>
       <BannerProvider>
         <App />
       </BannerProvider>
-    </React.StrictMode>,
-  );
-} else {
-  console.error('Failed to find the root element');
-}
+    </GlobalStyle>
+  </React.StrictMode>,
+);

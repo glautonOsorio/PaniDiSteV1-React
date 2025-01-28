@@ -1,5 +1,4 @@
 import { styled } from 'styled-components';
-import Background from '../../public/Background5.jpg';
 const NotFound = () => {
   const Container = styled.div`
     display: flex;
@@ -35,7 +34,7 @@ const NotFound = () => {
   `;
   return (
     <Container>
-      <Image src={Background} alt="erro" />
+      <Image src="/assets/Background.png" alt="erro" />
       <Content>
         <div>
           <Title>404</Title>

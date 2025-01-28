@@ -3,9 +3,6 @@ import Banner from '../../components/Banner/Banner';
 import Card from '../../components/Card/Card';
 import Footer from '../../components/Footer/Footer';
 
-import Focaccia from '../../public/FocacciacomTopping.jpeg';
-import BoloPaçoca from '../../public/BoloDePaçoca2.jpeg';
-import TortaGanache from '../../public/Tortaganache.jpeg';
 import { BannerContext } from '../../contexts/BannerContext';
 import { useContext, useEffect } from 'react';
 
@@ -25,7 +22,7 @@ export const ProductPage = () => {
         item_5: 'Azeite',
         item_6: 'Sal Grosso',
       },
-      image: Focaccia,
+      image: '/assets/FocacciacomTopping.jpeg',
     },
     {
       id: 1,
@@ -39,7 +36,7 @@ export const ProductPage = () => {
         item_4: '3 colheres de chá de sal',
       },
       price: 20.0,
-      image: TortaGanache,
+      image: '/assets/Tortaganache.jpeg',
     },
     {
       id: 2,
@@ -55,9 +52,10 @@ export const ProductPage = () => {
         item_6: 'Sal Grosso',
       },
       price: 30.0,
-      image: BoloPaçoca,
+      image: '/assets/BoloDePaçoca2.jpeg',
     },
   ];
+
   const { setBannerData } = useContext(BannerContext);
 
   useEffect(() => {
@@ -65,7 +63,7 @@ export const ProductPage = () => {
       title: 'Escolha seus produtos',
       subTitle: 'Os melhores de SouthTown',
     });
-  }, []);
+  }, [setBannerData]);
 
   return (
     <>
